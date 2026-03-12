@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact - Pine City Mall</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1><i class="fas fa-tree"></i> Pine City Mall</h1>
+        <p>Contact Us</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Mall Image -->
+        <img src="images/exterior.jpg" alt="Pine City Mall" class="contact-image">
+
+        <!-- Contact Info Card -->
+        <div class="contact-info-card">
+            <h2><i class="fas fa-address-card"></i> Contact Information</h2>
+            
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <strong>Address</strong>
+                    123 Pine Boulevard, City Center<br>
+                    Pine City, PC 12345
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <strong>Phone</strong>
+                    (555) 123-4567
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <strong>Email</strong>
+                    info@pinecitymall.com
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-globe"></i>
+                <div>
+                    <strong>Website</strong>
+                    www.pinecitymall.com
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                    <strong>Business Hours</strong>
+                    <table class="hours-table">
+                        <tr>
+                            <td>Monday - Thursday</td>
+                            <td>9:00 AM - 9:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday - Saturday</td>
+                            <td>9:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>10:00 AM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Public Holidays</td>
+                            <td>10:00 AM - 8:00 PM</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Service -->
+        <div class="card">
+            <h2 class="card-title"><i class="fas fa-headset"></i> Customer Service</h2>
+            <div class="detail-row">
+                <div class="detail-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="detail-content">
+                    <h4>Information Desk</h4>
+                    <p>Ground Floor, Center Court</p>
+                </div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-icon">
+                    <i class="fas fa-phone-volume"></i>
+                </div>
+                <div class="detail-content">
+                    <h4>Customer Service Hotline</h4>
+                    <p>(555) 123-4567 ext. 100</p>
+                </div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-icon">
+                    <i class="fas fa-envelope-open"></i>
+                </div>
+                <div class="detail-content">
+                    <h4>Customer Service Email</h4>
+                    <p>customerservice@pinecitymall.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="card">
+            <h2 class="card-title"><i class="fas fa-share-alt"></i> Follow Us</h2>
+            <div style="display: flex; justify-content: space-around; margin-top: 15px;">
+                <a href="#" style="color: #3b5998; font-size: 2rem;"><i class="fab fa-facebook"></i></a>
+                <a href="#" style="color: #E1306C; font-size: 2rem;"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="color: #1DA1F2; font-size: 2rem;"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="color: #FF0000; font-size: 2rem;"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="card">
+            <h2 class="card-title"><i class="fas fa-paper-plane"></i> Send Us a Message</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Full Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject"><i class="fas fa-tag"></i> Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="leasing">Store Leasing</option>
+                        <option value="events">Events & Promotions</option>
+                        <option value="lost">Lost & Found</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Message *</label>
+                    <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+
+        <!-- Getting Here -->
+        <div class="card">
+            <h2 class="card-title"><i class="fas fa-route"></i> Getting Here</h2>
+            
+            <div class="detail-row">
+                <div class="detail-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="detail-content">
+                    <h4>By Car</h4>
+                    <p>Take Exit 15 from Highway 101. Free parking available for 3 hours.</p>
+                </div>
+            </div>
+
+            <div class="detail-row">
+                <div class="detail-icon">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <div class="detail-content">
+                    <h4>By Bus</h4>
+                    <p>Routes 42, 56, 78, and 102 stop at Pine City Mall.</p>
+                </div>
+            </div>
+
+            <div class="detail-row">
+                <div class="detail-icon">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="detail-content">
+                    <h4>By Train</h4>
+                    <p>10-minute walk from Pine City Station on the Blue Line.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Parking Info -->
+        <div class="card">
+            <h2 class="card-title"><i class="fas fa-parking"></i> Parking Information</h2>
+            <div style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee;">
+                <span>First 3 Hours</span>
+                <span style="font-weight: 600; color: #4CAF50;">FREE</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee;">
+                <span>3-5 Hours</span>
+                <span style="font-weight: 600;">$3.00</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 8px 0;">
+                <span>Each Additional Hour</span>
+                <span style="font-weight: 600;">$1.50</span>
+            </div>
+            <p style="font-size: 0.85rem; color: #757575; margin-top: 10px;">
+                <i class="fas fa-info-circle"></i> Validation available at participating stores
+            </p>
+        </div>
+    </main>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index%20.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <i class="fas fa-info-circle"></i>
+            <span>About</span>
+        </a>
+        <a href="shops.html" class="nav-item">
+            <i class="fas fa-store"></i>
+            <span>Shops</span>
+        </a>
+        <a href="movies.html" class="nav-item">
+            <i class="fas fa-film"></i>
+            <span>Movies</span>
+        </a>
+        <a href="map.html" class="nav-item">
+            <i class="fas fa-map"></i>
+            <span>Map</span>
+        </a>
+        <a href="contact.html" class="nav-item active">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+</body>
+</html>

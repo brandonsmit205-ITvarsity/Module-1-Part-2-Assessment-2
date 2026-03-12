@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serendipity Shuffle - Pine City Mall Cinema</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1><i class="fas fa-tree"></i> Pine City Mall</h1>
+        <p>Movie Details</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" style="padding: 0;">
+        <!-- Movie Hero -->
+        <div class="movie-hero">
+            <img src="images/love-in-air.jpg" alt="Serendipity Shuffle Poster">
+            <div class="movie-hero-overlay">
+                <h1>Serendipity Shuffle</h1>
+                <p><i class="fas fa-clock"></i> 108 min | <span class="age-badge age-pg">PG</span></p>
+            </div>
+        </div>
+
+        <!-- Movie Content -->
+        <div class="movie-content">
+            <a href="movies.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Movies
+            </a>
+
+            <!-- Cast -->
+            <div class="card" style="margin-top: 15px;">
+                <h2 class="card-title"><i class="fas fa-users"></i> Cast</h2>
+                <p>Chloe Davis, Liam Chen, Emma Watson, Ryan Gosling, Jennifer Lopez</p>
+            </div>
+
+            <!-- Showtimes -->
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-clock"></i> Today's Showtimes</h2>
+                <div class="showtimes">
+                    <span class="showtime">11:00 AM</span>
+                    <span class="showtime">2:30 PM</span>
+                    <span class="showtime">5:45 PM</span>
+                    <span class="showtime">8:15 PM</span>
+                </div>
+                <p style="font-size: 0.85rem; color: #757575; margin-top: 10px;">
+                    <i class="fas fa-info-circle"></i> Click on a showtime to book tickets
+                </p>
+            </div>
+
+            <!-- Synopsis -->
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-book-open"></i> Synopsis</h2>
+                <p class="synopsis">
+                    When two strangers meet by chance at a bustling coffee shop in New York City, they never expect their lives to become intertwined. Sarah, a free-spirited artist, and David, a workaholic lawyer, find themselves repeatedly crossing paths in the most unexpected ways.
+                </p>
+                <p class="synopsis" style="margin-top: 10px;">
+                    As they navigate the ups and downs of modern dating, they discover that sometimes the best things in life happen when you least expect them. A heartwarming romantic comedy that will make you believe in love at first sight all over again.
+                </p>
+            </div>
+
+            <!-- Movie Info -->
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-info-circle"></i> Movie Details</h2>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Director</p>
+                        <p style="font-weight: 500;">Nancy Meyers</p>
+                    </div>
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Genre</p>
+                        <p style="font-weight: 500;">Romance/Comedy</p>
+                    </div>
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Release Date</p>
+                        <p style="font-weight: 500;">February 14, 2026</p>
+                    </div>
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Language</p>
+                        <p style="font-weight: 500;">English</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Book Button -->
+            <a href="#" class="btn btn-primary" style="display: block; text-align: center; margin: 15px 0;">
+                <i class="fas fa-ticket-alt"></i> Book Tickets Now
+            </a>
+        </div>
+    </main>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <i class="fas fa-info-circle"></i>
+            <span>About</span>
+        </a>
+        <a href="shops.html" class="nav-item">
+            <i class="fas fa-store"></i>
+            <span>Shops</span>
+        </a>
+        <a href="movies.html" class="nav-item active">
+            <i class="fas fa-film"></i>
+            <span>Movies</span>
+        </a>
+        <a href="map.html" class="nav-item">
+            <i class="fas fa-map"></i>
+            <span>Map</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+</body>
+</html>

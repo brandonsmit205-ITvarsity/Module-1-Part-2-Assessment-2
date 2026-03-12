@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lumina Woods Adventure - Pine City Mall Cinema</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1><i class="fas fa-tree"></i> Pine City Mall</h1>
+        <p>Movie Details</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" style="padding: 0;">
+        <!-- Movie Hero -->
+        <div class="movie-hero">
+            <img src="images/forest-adventure.jpg" alt="The Lumina Woods Adventure Poster">
+            <div class="movie-hero-overlay">
+                <h1>The Lumina Woods Adventure</h1>
+                <p><i class="fas fa-clock"></i> 95 min | <span class="age-badge age-all">G</span></p>
+            </div>
+        </div>
+
+        <!-- Movie Content -->
+        <div class="movie-content">
+            <a href="movies.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Movies
+            </a>
+
+            <!-- Cast -->
+            <div class="card" style="margin-top: 15px;">
+                <h2 class="card-title"><i class="fas fa-users"></i> Voice Cast</h2>
+                <p>Tom Hanks, Anne Hathaway, Jacob Tremblay, Awkwafina, John Mulaney</p>
+            </div>
+
+            <!-- Showtimes -->
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-clock"></i> Today's Showtimes</h2>
+                <div class="showtimes">
+                    <span class="showtime">9:30 AM</span>
+                    <span class="showtime">12:00 PM</span>
+                    <span class="showtime">2:30 PM</span>
+                    <span class="showtime">4:45 PM</span>
+                </div>
+                <p style="font-size: 0.85rem; color: #757575; margin-top: 10px;">
+                    <i class="fas fa-info-circle"></i> Click on a showtime to book tickets
+                </p>
+            </div>
+
+            <!-- Synopsis -->
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-book-open"></i> Synopsis</h2>
+                <p class="synopsis">
+                    In a magical forest where every creature glows with inner light, four unlikely friends embark on an epic adventure to save their home from darkness. When an ancient shadow threatens to extinguish the Lumina Woods forever, brave fox Finn, clever rabbit Ruby, wise owl Oliver, and playful squirrel Sammy must journey to the Heart of the Forest.
+                </p>
+                <p class="synopsis" style="margin-top: 10px;">
+                    Along the way, they discover that true friendship and believing in yourself are the most powerful magic of all. A heartwarming animated adventure for the whole family!
+                </p>
+            </div>
+
+            <!-- Movie Info -->
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-info-circle"></i> Movie Details</h2>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Director</p>
+                        <p style="font-weight: 500;">Pete Docter</p>
+                    </div>
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Genre</p>
+                        <p style="font-weight: 500;">Animation/Adventure</p>
+                    </div>
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Release Date</p>
+                        <p style="font-weight: 500;">March 5, 2026</p>
+                    </div>
+                    <div>
+                        <p style="color: #757575; font-size: 0.9rem;">Language</p>
+                        <p style="font-weight: 500;">English</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Book Button -->
+            <a href="#" class="btn btn-primary" style="display: block; text-align: center; margin: 15px 0;">
+                <i class="fas fa-ticket-alt"></i> Book Tickets Now
+            </a>
+        </div>
+    </main>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <i class="fas fa-info-circle"></i>
+            <span>About</span>
+        </a>
+        <a href="shops.html" class="nav-item">
+            <i class="fas fa-store"></i>
+            <span>Shops</span>
+        </a>
+        <a href="movies.html" class="nav-item active">
+            <i class="fas fa-film"></i>
+            <span>Movies</span>
+        </a>
+        <a href="map.html" class="nav-item">
+            <i class="fas fa-map"></i>
+            <span>Map</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+</body>
+</html>
